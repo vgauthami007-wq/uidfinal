@@ -31,7 +31,7 @@ function getWeekDays() {
   return days;
 }
 
-// Navigate to another page (relative from pages/)
+// Navigate to another page
 function goPage(page) {
   window.location.href = page;
 }
@@ -49,6 +49,6 @@ function showToast(msg, type = 'success') {
 // Guard: redirect to login if not authenticated
 function requireAuth() {
   if (!localStorage.getItem('hb_user')) {
-    window.location.href = '../index.html';
+    window.location.href = 'index.html';
   }
 }

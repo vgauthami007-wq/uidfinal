@@ -125,7 +125,7 @@ function toggleHabit(id) {
   // Confetti if all done
   const done  = habits.filter(h => h.completions[selectedDate]).length;
   if (done === habits.length && habits.length > 0) {
-    launchConfetti && launchConfetti();
+    if (typeof launchConfetti === 'function') launchConfetti();
   }
 }
 

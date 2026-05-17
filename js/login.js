@@ -76,7 +76,7 @@ function handleLogin() {
 
   // Store user & redirect
   localStorage.setItem('hb_user', email);
-  setTimeout(() => { window.location.href = 'pages/today.html'; }, 420);
+  setTimeout(() => { window.location.href = 'today.html'; }, 420);
 }
 
 function showForgot() {
@@ -100,7 +100,7 @@ function sendReset() {
 window.addEventListener('DOMContentLoaded', () => {
   // Redirect if already logged in
   if (localStorage.getItem('hb_user')) {
-    window.location.href = 'pages/today.html';
+    window.location.href = 'today.html';
     return;
   }
   initQuotes();
