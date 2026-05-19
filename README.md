@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  A polished, mobile-first <strong>Habit Tracking Web App</strong> built with pure HTML, CSS, and JavaScript — featuring an AI coach, dark mode, streak tracking, confetti celebrations, and persistent local storage. No frameworks, no dependencies.
+  A polished, mobile-first <strong>Habit Tracking Web App</strong> built with pure HTML, CSS, and JavaScript — featuring an AI coach, dark mode, streak tracking, confetti celebrations, and persistent local storage
 </p>
 
 ---
